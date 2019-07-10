@@ -1,10 +1,10 @@
 <template>
   <div id="parallax-container">
     <div id="layer" style="background-image: url(https://res.cloudinary.com/whynotearth/image/upload/v1562651586/1b_xpy1xd.png);"></div>
-    <div id="layer" style="background-image: url(https://res.cloudinary.com/whynotearth/image/upload/v1562651586/4_rendb4.png);"></div>
     <div id="layer1" style="background-image: url(https://res.cloudinary.com/whynotearth/image/upload/v1562651585/meredith_smmoxu.png);"></div>
     <div id="layer" style="background-image: url(https://res.cloudinary.com/whynotearth/image/upload/v1562651585/2_glqsw6.png);"></div>
     <div id="layer" style="background-image: url(https://res.cloudinary.com/whynotearth/image/upload/v1562651585/3_ltyll1.png);"></div>
+    <div id="layer" style="background-image: url(https://res.cloudinary.com/whynotearth/image/upload/v1562651586/4_rendb4.png);"></div>
     <div id="layer" style="background-image: url(https://res.cloudinary.com/whynotearth/image/upload/v1562651584/5b_qnkog2.png);"></div>
   </div>
 </template>
