@@ -1,11 +1,13 @@
 <template>
   <div id="parallax-container">
-    <div id="layer" style="background-image: url(https://res.cloudinary.com/whynotearth/image/upload/v1562651586/1b_xpy1xd.png);"></div>
+    <div id="layer" style="background-image: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682608/1b_ddwcio.png);"></div>
     <div id="layer1" style="background-image: url(https://res.cloudinary.com/whynotearth/image/upload/v1562651585/meredith_smmoxu.png);"></div>
-    <div id="layer" style="background-image: url(https://res.cloudinary.com/whynotearth/image/upload/v1562651585/2_glqsw6.png);"></div>
-    <div id="layer" style="background-image: url(https://res.cloudinary.com/whynotearth/image/upload/v1562651585/3_ltyll1.png);"></div>
-    <div id="layer" style="background-image: url(https://res.cloudinary.com/whynotearth/image/upload/v1562651586/4_rendb4.png);"></div>
-    <div id="layer" style="background-image: url(https://res.cloudinary.com/whynotearth/image/upload/v1562651584/5b_qnkog2.png);"></div>
+    <div id="layer" style="background-image: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682609/2_ppqnz4.png);"></div>
+    <div id="layer" style="background-image: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682608/3_w15w82.png);"></div>
+    <div id="layer" style="background-image: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682608/4_phriye.png);"></div>
+    <div id="layer" style="background-image: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682609/5_yk3ubw.png);"></div>
+    <div id="layer" style="background-image: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682609/6_xbypzd.png);"></div>
+    <div id="layer" style="background-image: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682609/7_oljhke.png);"></div>
   </div>
 </template>
 
@@ -34,7 +36,7 @@ html {
 
 #parallax-container {
   height: 100vh;
-  background-size: cover;
+  background-size: contain;
 }
 
 #layer1 {
@@ -42,7 +44,7 @@ html {
   background-position: center !important;
   height: 100%;
   width: 100%;
-  bottom: 0;
+  top: 0;
 }
 /* 
 #layer2 {
@@ -59,6 +61,7 @@ html {
   background-position: center !important;
   height: 100vh;
   width: 100%;
+  background-size: cover;
 }
 /* 
 #content {
