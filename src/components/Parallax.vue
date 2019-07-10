@@ -16,7 +16,7 @@ export default {
       let parent =  document.getElementById('parallax-container');
       let layer1 = document.getElementById('layer1');
       // let layer2 = document.getElementById('layer2');
-      layer1.style.transform = 'translateY(-' + (window.pageYOffset * 2) + 'px)';
+      layer1.style.transform = 'translateY(-' + (window.pageYOffset*1.5) + 'px)';
       // layer2.style.transform = 'translateY(-' + (window.pageYOffset * 0.5) + 'px)';
 
     }, false)
@@ -27,6 +27,9 @@ export default {
 <style>
 body {
   margin: 0;
+}
+html {
+  scroll-behavior: smooth;
 }
 
 #parallax-container {

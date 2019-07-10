@@ -18,4 +18,7 @@ export default {
 .container{
   margin: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 </style>
