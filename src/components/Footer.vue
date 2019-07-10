@@ -42,5 +42,8 @@ export default {
 </script>
 
 <style>
-
+.link{
+  text-decoration:none; 
+  color:#D8DADE;
+}
 </style>
