@@ -11,7 +11,7 @@
       <div class="layer" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682609/7_oljhke.png);"></div>
     </div>
     <div id="content">
-      <v-container grid-list-md id="content">
+      <v-container grid-list-md>
         <v-layout row wrap justify-space-between justify-center>
           <v-flex xs12 sm6 md3 v-for="meredith in merediths" v-bind:key="meredith.id">
             <v-card height="631px">
@@ -248,5 +248,6 @@ body {
   position: relative;
   background: linear-gradient(115.51deg, #121416 0%, #2B354C 100%);
   color: #ffffff;
+  width: 100%;
 }
 </style>
