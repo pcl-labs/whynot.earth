@@ -1,59 +1,70 @@
 <template>
   <v-container-fluid>
-    <Parallax></Parallax>
-    <v-container grid-list-md>
-      <v-layout row wrap justify-space-between justify-center>
-        <v-flex xs12 sm6 md3 v-for="meredith in merediths" v-bind:key="meredith.id">
-          <v-card height="631px">
-            <v-img></v-img>
-          </v-card>
-        </v-flex>
-      </v-layout>
-      <h2 class="listTitle">Integrations</h2>
-      <v-layout row wrap justify-space-between justify-center>
-        <v-flex xs12 sm6 md3 v-for="integration in integrations" v-bind:key="integration.id">
-          <Card
-            :title="integration.title"
-            :imgUrl="integration.imgUrl"
-            minHeight="350px"
-          >
-          </Card>
-        </v-flex>
-      </v-layout>
-      <h2 class="listTitle">Clients</h2>
-      <v-layout row wrap justify-space-between justify-center>
-        <v-flex xs12 sm6 md3 v-for="client in clients" v-bind:key="client.id">
-          <Card
-            :title="client.title"
-            :imgUrl="client.imgUrl"
-            minHeight="350px"
-          >
-          </Card>
-        </v-flex>
-      </v-layout>
-      <h2 class="listTitle">Blog</h2>
-      <v-layout row wrap justify-space-between justify-center>
-        <v-flex xs12 sm6 md3 v-for="blog in blogs" v-bind:key="blog.id">
-          <Card
-            :title="blog.title"
-            :imgUrl="blog.imgUrl"
-            minHeight="350px"
-          >
-          </Card>
-        </v-flex>
-      </v-layout>
-      <h2 class="listTitle">Careers</h2>
-      <v-layout row wrap justify-space-between justify-center>
-        <v-flex xs12 sm6 md3 v-for="career in careers" v-bind:key="career.id">
-          <Card
-            :title="career.title"
-            :imgUrl="career.imgUrl"
-            minHeight="350px"
-          >
-          </Card>
-        </v-flex>
-      </v-layout>
-    </v-container>
+    <div id="parallax-container">
+      <div style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682608/1b_ddwcio.png);"></div>
+      <div style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682609/2_ppqnz4.png);"></div>
+      <div style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682608/3_w15w82.png);"></div>
+      <div style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682607/meredith_fkpe6f.png); background-repeat: no-repeat;"></div>
+      <div style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682608/4_phriye.png);"></div>
+      <div style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682609/5_yk3ubw.png);"></div>
+      <div style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682609/6_xbypzd.png);"></div>
+      <div style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682609/7_oljhke.png);"></div>
+    </div>
+    <div id="content">
+      <v-container grid-list-md id="content">
+        <v-layout row wrap justify-space-between justify-center>
+          <v-flex xs12 sm6 md3 v-for="meredith in merediths" v-bind:key="meredith.id">
+            <v-card height="631px">
+              <v-img></v-img>
+            </v-card>
+          </v-flex>
+        </v-layout>
+        <h2 class="listTitle">Integrations</h2>
+        <v-layout row wrap justify-space-between justify-center>
+          <v-flex xs12 sm6 md3 v-for="integration in integrations" v-bind:key="integration.id">
+            <Card
+              :title="integration.title"
+              :imgUrl="integration.imgUrl"
+              minHeight="350px"
+            >
+            </Card>
+          </v-flex>
+        </v-layout>
+        <h2 class="listTitle">Clients</h2>
+        <v-layout row wrap justify-space-between justify-center>
+          <v-flex xs12 sm6 md3 v-for="client in clients" v-bind:key="client.id">
+            <Card
+              :title="client.title"
+              :imgUrl="client.imgUrl"
+              minHeight="350px"
+            >
+            </Card>
+          </v-flex>
+        </v-layout>
+        <h2 class="listTitle">Blog</h2>
+        <v-layout row wrap justify-space-between justify-center>
+          <v-flex xs12 sm6 md3 v-for="blog in blogs" v-bind:key="blog.id">
+            <Card
+              :title="blog.title"
+              :imgUrl="blog.imgUrl"
+              minHeight="350px"
+            >
+            </Card>
+          </v-flex>
+        </v-layout>
+        <h2 class="listTitle">Careers</h2>
+        <v-layout row wrap justify-space-between justify-center>
+          <v-flex xs12 sm6 md3 v-for="career in careers" v-bind:key="career.id">
+            <Card
+              :title="career.title"
+              :imgUrl="career.imgUrl"
+              minHeight="350px"
+            >
+            </Card>
+          </v-flex>
+        </v-layout>
+      </v-container>
+    </div>
   </v-container-fluid>
 </template>
 
@@ -175,6 +186,15 @@ export default {
         }
       ]
     }
+  },
+  mounted(){
+    window.addEventListener('scroll', () => {
+      let parent =  document.getElementById('parallax-container');
+      let children = parent.getElementsByTagName('div');
+      for(let i = 0; i < children.length; i++) {
+        children[i].style.transform = 'translateY(-' + (window.pageYOffset * i / children.length) + 'px)';
+      }
+    }, false)
   }
 }
 </script>
@@ -186,7 +206,6 @@ export default {
   margin-bottom: 20px;
   margin-top: 20px; 
 }
-
 @media only screen and (max-width: 600px) {
   .container{
     max-width: 342px;
@@ -202,8 +221,30 @@ export default {
     max-width: 1279px;
   }
 }
-
 html {
   scroll-behavior: smooth;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+body {
+  margin: 0;
+}
+#parallax-container {
+  height: 950px;
+  display: block;
+}
+#parallax-container div {
+  position: fixed;
+  top: 0;
+  background-position: center !important;
+  transform: translateY(0px);
+  height: 1000px;
+  width: 100%;
+}
+#content {
+  position: relative;
+  background: linear-gradient(115.51deg, #121416 0%, #2B354C 100%);
+  color: #ffffff;
 }
 </style>
