@@ -1,14 +1,14 @@
 <template>
   <v-container-fluid>
     <div id="parallax-container">
-      <div style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682608/1b_ddwcio.png);"></div>
-      <div style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682607/meredith_fkpe6f.png); background-repeat: no-repeat; top:90px;"></div>
-      <div style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682609/2_ppqnz4.png);"></div>
-      <div style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682608/3_w15w82.png);"></div>
-      <div style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682608/4_phriye.png);"></div>
-      <div style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682609/5_yk3ubw.png);"></div>
-      <div style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682609/6_xbypzd.png);"></div>
-      <div style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682609/7_oljhke.png);"></div>
+      <div class="layer" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682608/1b_ddwcio.png);"></div>
+      <div id="meredith" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682607/meredith_fkpe6f.png); background-repeat: no-repeat; top:90px;"></div>
+      <div class="layer" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682609/2_ppqnz4.png);"></div>
+      <div class="layer" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682608/3_w15w82.png);"></div>
+      <div class="layer" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682608/4_phriye.png);"></div>
+      <div class="layer" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682609/5_yk3ubw.png);"></div>
+      <div class="layer" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682609/6_xbypzd.png);"></div>
+      <div class="layer" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682609/7_oljhke.png);"></div>
     </div>
     <div id="content">
       <v-container grid-list-md id="content">
@@ -190,7 +190,9 @@ export default {
   mounted(){
     window.addEventListener('scroll', () => {
       let parent =  document.getElementById('parallax-container');
-      let children = parent.getElementsByTagName('div');
+      let children = document.getElementsByClassName('layer');
+      let meredith = document.getElementById('meredith');
+      meredith.style.transform = 'translateY(-' + (window.pageYOffset*0.6) + 'px)';
       for(let i = 0; i < children.length; i++) {
         children[i].style.transform = 'translateY(-' + (window.pageYOffset * i / children.length) + 'px)';
       }
