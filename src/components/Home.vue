@@ -231,7 +231,7 @@ body {
   margin: 0;
 }
 #parallax-container {
-  height: 950px;
+  height: 930px;
   display: block;
 }
 #parallax-container div {
