@@ -192,7 +192,7 @@ export default {
       let parent =  document.getElementById('parallax-container');
       let children = document.getElementsByClassName('layer');
       let meredith = document.getElementById('meredith');
-      meredith.style.transform = 'translateY(-' + (window.pageYOffset*0.6) + 'px)';
+      meredith.style.transform = 'translateY(-' + (window.pageYOffset*0.3) + 'px)';
       for(let i = 0; i < children.length; i++) {
         children[i].style.transform = 'translateY(-' + (window.pageYOffset * i / children.length) + 'px)';
       }
