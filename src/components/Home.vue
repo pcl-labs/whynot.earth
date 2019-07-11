@@ -2,9 +2,9 @@
   <v-container-fluid>
     <div id="parallax-container">
       <div style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682608/1b_ddwcio.png);"></div>
+      <div style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682607/meredith_fkpe6f.png); background-repeat: no-repeat; top:90px;"></div>
       <div style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682609/2_ppqnz4.png);"></div>
       <div style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682608/3_w15w82.png);"></div>
-      <div style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682607/meredith_fkpe6f.png); background-repeat: no-repeat;"></div>
       <div style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682608/4_phriye.png);"></div>
       <div style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682609/5_yk3ubw.png);"></div>
       <div style="background: url(https://res.cloudinary.com/whynotearth/image/upload/v1562682609/6_xbypzd.png);"></div>
