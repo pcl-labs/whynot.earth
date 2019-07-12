@@ -254,7 +254,7 @@ body {
 }
 
 .headerText{
-  position: fixed;
+  position: absolute;
   top: 137px;
   width: 100%;
   height: 100%;
