@@ -69,12 +69,10 @@
 </template>
 
 <script>
-const Parallax = () => import ('@/components/Parallax.vue')
 const Card = () => import ('@/components/Card.vue')
 
 export default {
   components: {
-    Parallax,
     Card
   },
   data(){
