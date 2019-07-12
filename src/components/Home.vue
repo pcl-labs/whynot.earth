@@ -10,6 +10,10 @@
       <div class="layer" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/c_scale,q_auto:low,f_auto/v1562682609/6_xbypzd.png);"></div>
       <div class="layer" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/c_scale,q_auto:low,f_auto/v1562682609/7_oljhke.png);"></div>
     </div>
+    <v-flex xs12 text-xs-center class="headerText">
+      <h1>Meet Meredith...</h1>
+      <h2>I love cuddles lick the plastic bag, paw your face to wake you up in the morning.</h2>
+    </v-flex>
     <div id="content">
       <v-container grid-list-md>
         <v-layout row wrap justify-space-between justify-center>
@@ -247,5 +251,23 @@ body {
   background-color: #121416;
   color: #ffffff;
   width: 100%;
+}
+
+.headerText{
+  position: fixed;
+  top: 137px;
+  width: 100%;
+  height: 100%;
+  padding:30px;
+}
+
+.headerText h1{
+  font-size: 48px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.headerText h2{
+  color: #FFFFFF;
+  font-size: 32px;
 }
 </style>
