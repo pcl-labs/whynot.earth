@@ -2,7 +2,12 @@
   <v-container-fluid>
     <div id="parallax-container">
       <div class="layer" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/c_scale,q_auto:low,f_auto/v1562682608/1b_ddwcio.png);"></div>
-      <div id="meredith" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/c_scale,q_auto:low,f_auto/v1562682607/meredith_fkpe6f.png); background-repeat: no-repeat; top:90px;"></div>
+      <div id="meredith" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/c_scale,q_auto:low,f_auto/v1562682607/meredith_fkpe6f.png); background-repeat: no-repeat; top:90px;">
+        <v-flex xs12 text-xs-center class="headerText">
+          <h1>Meet Meredith...</h1>
+          <h2>I love cuddles lick the plastic bag, paw your face to wake you up in the morning.</h2>
+        </v-flex>
+      </div>
       <div class="layer" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/c_scale,q_auto:low,f_auto/v1562682609/2_ppqnz4.png);"></div>
       <div class="layer" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/c_scale,q_auto:low,f_auto/v1562682608/3_w15w82.png);"></div>
       <div class="layer" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/c_scale,q_auto:low,f_auto/v1562682608/4_phriye.png);"></div>
@@ -10,10 +15,6 @@
       <div class="layer" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/c_scale,q_auto:low,f_auto/v1562682609/6_xbypzd.png);"></div>
       <div class="layer" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/c_scale,q_auto:low,f_auto/v1562682609/7_oljhke.png);"></div>
     </div>
-    <v-flex xs12 text-xs-center class="headerText">
-      <h1>Meet Meredith...</h1>
-      <h2>I love cuddles lick the plastic bag, paw your face to wake you up in the morning.</h2>
-    </v-flex>
     <div id="content">
       <v-container grid-list-md>
         <v-layout row wrap justify-space-between justify-center>
