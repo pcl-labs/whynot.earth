@@ -3,10 +3,12 @@
     <div id="parallax-container">
       <div class="layer" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/c_scale,q_auto:low,f_auto/v1562682608/1b_ddwcio.png);"></div>
       <div id="meredith" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/c_scale,q_auto:low,f_auto/v1562682607/meredith_fkpe6f.png); background-repeat: no-repeat; top:90px;">
-        <v-flex xs12 text-xs-center class="headerText">
-          <h1>Meet Meredith...</h1>
-          <h2>I love cuddles lick the plastic bag, paw your face to wake you up in the morning.</h2>
-        </v-flex>
+        <v-layout justify-center>
+          <v-flex xs12 sm6 md6 text-xs-center class="headerText">
+            <h1>Meet Meredith...</h1>
+            <h2>I love cuddles lick the plastic bag, paw your face to wake you up in the morning.</h2>
+          </v-flex>
+        </v-layout>
       </div>
       <div class="layer" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/c_scale,q_auto:low,f_auto/v1562682609/2_ppqnz4.png);"></div>
       <div class="layer" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/c_scale,q_auto:low,f_auto/v1562682608/3_w15w82.png);"></div>
@@ -255,17 +257,15 @@ body {
 }
 
 .headerText{
-  position: absolute;
   top: 137px;
+  padding:30px;
   width: 100%;
   height: 100%;
-  padding:30px;
 }
 
 .headerText h1{
   font-size: 48px;
   color: #ffffff;
-  margin-bottom: 40px;
 }
 .headerText h2{
   color: #FFFFFF;
