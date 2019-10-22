@@ -1,9 +1,6 @@
+![image](https://user-images.githubusercontent.com/5694308/67261608-a416b200-f4cb-11e9-8bd2-b88d1a3f89f9.png)
+
 # Why Not Earth
-### Websites and AI Research
-
->__**We do the tech, you change the world.**__
-
-
 Why Not Earth is a marketing agency with a philanthropic streak. Besides providing world-class digital development, tech training, and AI-based marketing campaigns for our clients, we also donate these services in support of social and environmental NGOs around the world. Why Not Earth does the tech that helps you make Earth a better place to live.
 
 ## Our Mission
@@ -22,16 +19,16 @@ Why Not Earth is dedicated to providing powerful digital marketing solutions to 
     16 years of experience in the IT industry with experience in: software development, systems administration, networking, storage, security and virtualization. Basically Gilfoyle. 
     >”This is technically true, yet the most understated bio ever. Dude’s a genius.” - Chris
 
-* #### [Atharva Sharma](https://github.com/atharva3010) - Product Manager 
-    Frontend Engineer and product manager. Stays up really late to finish what Chris wants sometimes. We worry about his lack of sleep.
+* #### [Atharva Sharma](https://github.com/atharva3010) - Product Manager, Frontend Engineer
+    Stays up really late to finish what Chris wants sometimes. We worry about his lack of sleep.
     >“He’s fine!” - Chris
     
-* #### [Morteza Ziyae](https://github.com/mort3za)
-    Senior front end developer, with 7 years experience, mostly focused on front end. A Vue and React developer, hands on Nodejs and from the age of IE6.
+* #### [Morteza Ziyae](https://github.com/mort3za) - Senior Frontend Developer
+    Senior developer with 7 years experience, mostly focused on front end. A Vue and React developer, hands on Nodejs and from the age of IE6.
     >“It’s about time we got some muscle on this team.” - Chris
     
-* #### [Julia Chow](https://github.com/bamboochow)
-    UI/UX Designer. Joined the team to do design and ended up doing tons of other random things. Is basically a house cat. Feed her ice cream, cake, and boba. If she likes you sometimes she will catch little creatures outside to show you. 
+* #### [Julia Chow](https://github.com/bamboochow) - UI/UX Designer
+    Joined the team to do design and ended up doing tons of other random things. Is basically a house cat. Feed her ice cream, cake, and boba. If she likes you sometimes she will catch little creatures outside to show you. 
     >“I haven’t asked Julia to cut anyone for our company, but I’m pretty sure she would; and ask for ice cream after.” - Chris
     
 * #### Sambo
