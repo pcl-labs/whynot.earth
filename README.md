@@ -52,6 +52,13 @@ Why Not Earth is dedicated to providing powerful digital marketing solutions to 
 * [vKirirom](https://github.com/orgs/whynotearth/projects/2)
 * [Meredith Core](https://github.com/orgs/whynotearth/projects/4)
 
+## Career
+Besides contributing developers, we all need the following in our team: 
+* Copywriter
+* Video Editor
+* .net Programmer
+* Marketing Strategist
+
 ## Build Setup
 
 ``` bash
