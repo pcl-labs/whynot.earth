@@ -31,7 +31,7 @@ Why Not Earth is dedicated to providing powerful digital marketing solutions to 
     >“It’s about time we got some muscle on this team.” - Chris
     
 * #### [Julia Chow](https://github.com/bamboochow)
-    UI/UX Designer. Joined the team to do design and ended up doing tons of other random things. Is basically a house cat. Feed her ice cream, cake, and boba. 
+    UI/UX Designer. Joined the team to do design and ended up doing tons of other random things. Is basically a house cat. Feed her ice cream, cake, and boba. If she likes you sometimes she will catch little creatures outside to show you. 
     >“I haven’t asked Julia to cut anyone for our company, but I’m pretty sure she would; and ask for ice cream after.” - Chris
     
 * #### Sambo
