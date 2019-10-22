@@ -1,4 +1,8 @@
-# whynot.earth
+# Why Not Earth
+### Websites and AI Research
+
+>__**We do the tech, you change the world.**__
+
 
 Why Not Earth is a marketing agency with a philanthropic streak. Besides providing world-class digital development, tech training, and AI-based marketing campaigns for our clients, we also donate these services in support of social and environmental NGOs around the world. Why Not Earth does the tech that helps you make Earth a better place to live.
 
