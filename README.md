@@ -1,6 +1,26 @@
 # Why Not Earth
 Our personal "website" although its not live yet. We make opensource stuff and give everything away for free. Lots of people ask why, because we want to and its fun. There are longer versions to that answer... dig in, join our discord, and find out <3
 
+## Preview URL
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5f974d27-23b8-4a70-89ca-b9418b6a45bf/deploy-status)](https://app.netlify.com/sites/stupefied-shirley-15d2ab/deploys)  
+
+Demo: https://whynot.earth/
+
+## Design File:
+
+https://www.figma.com/file/M3U8SfOgvNiPkRHPBooBtcGQ/Why-Not-Earth?node-id=0%3A1
+
+## Frontend:
+Vue with typescript and Bootstrap
+Along with Vuex for state management
+
+## Backend:
+Managed by meredith-core api https://github.com/whynotearth/meredith-core
+
+## Tools
+
+[<img src="https://raw.githubusercontent.com/whynotearth/shinta-mani-wild/master/src/assets/img/browserstack-logo.png">](https://browserstack.com)
+
 ## Build Setup
 
 ``` bash
@@ -26,3 +46,7 @@ There are a lot of ways you can contribute to making WHY NOT EARTH better! You c
 We enthusiastically welcome new contributors to the WHY NOT EARTH Projects **_even if you have no experience being part of an open source project_**.  
 
 If you're new to **contributing to the WHY NOT EARTH open source project**, sign up for our [Discord](https://discord.gg/EBpyFM3) and say Hi! Check out our [wiki](https://github.com/whynotearth/whynot.earth/wiki) for more info about our team and what we do!
+
+## License
+
+why-not-earth is licensed under the [Apache License, Version 2.0](LICENSE).
