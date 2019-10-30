@@ -1,3 +1,6 @@
+# Why Not Earth
+Our personal "website" although its not live yet. We make opensource stuff and give everything away for free. Lots of people ask why, because we want to and its fun. There are longer versions to that answer... dig in, join our discord, and find out <3
+
 ## Build Setup
 
 ``` bash
