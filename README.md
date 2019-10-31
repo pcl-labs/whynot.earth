@@ -1,11 +1,49 @@
-# Why Not Earth
-Why Not Earth is a marketing agency with a philanthropic mindset. Providing best-in-class development in a digital society, we offer tech training and AI-based marketing campaigns for our clients. To support environmental causes and social NGO causes, we offer our services and products free of charge. Why Not Earth does the tech that helps you make Earth a better place to live.
+<h1 align="center">
+  <br>
+  <a href="https://user-images.githubusercontent.com/5694308/67922376-2e05ff80-fbdd-11e9-8e9e-58b52ca151b9"><img src="https://user-images.githubusercontent.com/5694308/67922376-2e05ff80-fbdd-11e9-8e9e-58b52ca151b9.png" alt="Why Not Earth" width="200"></a>
+  <br>
+  Why Not Earth
+  <br>
+</h1>
 
+<h4 align="center">Why Not Earth is a marketing agency with a philanthropic mindset. Providing best-in-class development in a digital society, we offer tech training and AI-based marketing campaigns for our clients. To support environmental causes and social NGO causes, we offer our services and products free of charge. Why Not Earth does the tech that helps you make Earth a better place to live.
+<br>
 Lots of people ask "why?"
+<br>
+Because we want to and its fun. There are longer versions to that answer... dig in, join our <a href="https://discord.gg/EBpyFM3">Discord</a>, check out our <a href="https://github.com/whynotearth/whynot.earth/wiki">wiki</a> and find out <3
+</h4>
 
-Because we want to and its fun. There are longer versions to that answer... dig in, join our [Discord](https://discord.gg/EBpyFM3), check out our [wiki](https://github.com/whynotearth/whynot.earth/wiki) and find out <3
+<p align="center">
+  <a href="https://badges.frapsoft.com/os/v1/open-source">
+    <img src="https://badges.frapsoft.com/os/v1/open-source.svg"
+         alt="Open Source">
+  </a>
+  <a href="https://img.shields.io/discord/453020970354081812">
+      <img src="https://img.shields.io/discord/453020970354081812.svg">
+  </a>
+  <a href="https://img.shields.io/badge/PRs-welcome-brightgreen">
+      <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat">
+  </a>
+  <a href="https://www.paypal.me/paulchrisluke">
+    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
+  </a>
+</p> 
 
-## Preview URL
+
+<p align="center">
+  <a href="#preview">Preview</a> •
+  <a href="#design-file">Design File</a> •
+  <a href="#frontend">Frontend</a> •
+  <a href="#backend">Backend</a> •
+  <a href="#tools">Tools</a> •
+  <a href="#build-setup">Build Setup</a> •
+  <a href="#wed-love-your-help-making-WHY-NOT-EARTH-better">We'd love your help making WHY NOT EARTH better</a> •
+  <a href="#license">License</a>
+</p>
+
+# Why Not Earth
+
+## Preview
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5f974d27-23b8-4a70-89ca-b9418b6a45bf/deploy-status)](https://app.netlify.com/sites/stupefied-shirley-15d2ab/deploys)  
 
 ![image](https://user-images.githubusercontent.com/5694308/67919702-f5155d00-fbd3-11e9-9b17-1f77f5a60623.png)
