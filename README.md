@@ -1,4 +1,6 @@
 # Why Not Earth
+Why Not Earth is a marketing agency with a philanthropic streak. Besides providing world-class digital development, tech training, and AI-based marketing campaigns for our clients, we also donate these services in support of social and environmental NGOs around the world. Why Not Earth does the tech that helps you make Earth a better place to live.
+
 Our personal "website" although its not live yet. We make opensource stuff and give everything away for free. Lots of people ask why, because we want to and its fun. There are longer versions to that answer... dig in, join our [Discord](https://discord.gg/EBpyFM3), check out our [wiki](https://github.com/whynotearth/whynot.earth/wiki) and find out <3
 
 ## Preview URL
