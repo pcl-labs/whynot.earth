@@ -6,6 +6,7 @@ Our personal "website" although its not live yet. We make opensource stuff and g
 ## Preview URL
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5f974d27-23b8-4a70-89ca-b9418b6a45bf/deploy-status)](https://app.netlify.com/sites/stupefied-shirley-15d2ab/deploys)  
 
+![image](https://user-images.githubusercontent.com/5694308/67919702-f5155d00-fbd3-11e9-9b17-1f77f5a60623.png)
 Demo: https://whynot.earth/
 
 ## Design File:
