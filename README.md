@@ -1,7 +1,9 @@
 # Why Not Earth
-Why Not Earth is a marketing agency with a philanthropic streak. Besides providing world-class digital development, tech training, and AI-based marketing campaigns for our clients, we also donate these services in support of social and environmental NGOs around the world. Why Not Earth does the tech that helps you make Earth a better place to live.
+Why Not Earth is a marketing agency with a philanthropic mindset. Providing best-in-class development in a digital society, we offer tech training and AI-based marketing campaigns for our clients. To support environmental causes and social NGO causes, we offer our services and products free of charge. Why Not Earth does the tech that helps you make Earth a better place to live.
 
-Our personal "website" although its not live yet. We make opensource stuff and give everything away for free. Lots of people ask why, because we want to and its fun. There are longer versions to that answer... dig in, join our [Discord](https://discord.gg/EBpyFM3), check out our [wiki](https://github.com/whynotearth/whynot.earth/wiki) and find out <3
+Lots of people ask "why?"
+
+Because we want to and its fun. There are longer versions to that answer... dig in, join our [Discord](https://discord.gg/EBpyFM3), check out our [wiki](https://github.com/whynotearth/whynot.earth/wiki) and find out <3
 
 ## Preview URL
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5f974d27-23b8-4a70-89ca-b9418b6a45bf/deploy-status)](https://app.netlify.com/sites/stupefied-shirley-15d2ab/deploys)  
@@ -44,7 +46,7 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 ## We'd love your help making WHY NOT EARTH better
 
-There are a lot of ways you can contribute to making WHY NOT EARTH better! You can report bugs and feature requests or ideally become an ongoing participant in the WHY NOT EARTH Project community and contribute code to the open source project.
+There are a lot of ways you can contribute to making WHY NOT EARTH the best it  can be! You can find issues, feature suggestions and requests, or even become a participant in the WHY NOT EARTH Project community and contribute code to the open source project.
 
 We enthusiastically welcome new contributors to the WHY NOT EARTH Projects **_even if you have no experience being part of an open source project_**.  
 
