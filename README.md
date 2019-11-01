@@ -7,9 +7,9 @@
 </h1>
 
 <h4 align="center">Why Not Earth is a marketing agency with a philanthropic mindset. Providing best-in-class development in a digital society, we offer tech training and AI-based marketing campaigns for our clients. To support environmental causes and social NGO causes, we offer our services and products free of charge. Why Not Earth does the tech that helps you make Earth a better place to live.
-<br>
+<br></br>
 Lots of people ask "why?"
-<br>
+<br></br>
 Because we want to and its fun. There are longer versions to that answer... dig in, join our <a href="https://discord.gg/EBpyFM3">Discord</a>, check out our <a href="https://github.com/whynotearth/whynot.earth/wiki">wiki</a> and find out <3
 </h4>
 
