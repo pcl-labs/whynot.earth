@@ -41,8 +41,6 @@ Because we want to and its fun. There are longer versions to that answer... dig 
   <a href="#license">License</a>
 </p>
 
-# Why Not Earth
-
 ## Preview
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5f974d27-23b8-4a70-89ca-b9418b6a45bf/deploy-status)](https://app.netlify.com/sites/stupefied-shirley-15d2ab/deploys)  
 
