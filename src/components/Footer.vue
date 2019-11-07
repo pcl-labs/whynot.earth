@@ -5,7 +5,7 @@
         <v-flex xs12 sm3 md3 lg3>
           <img src="../assets/whynotearth.png" class="meredith"/>
         </v-flex>
-        <v-flex xs4 sm3 md3 lg3>
+        <v-flex xs12 sm3 md3 lg3>
           <ul>
             <li>Connect</li>
             <li><a href="#">Discord</a></li>
@@ -13,7 +13,7 @@
             <li><a href="#">Github</a></li>
           </ul>
         </v-flex>
-        <v-flex xs4 sm3 md3 lg3>
+        <v-flex xs12 sm3 md3 lg3>
           <ul>
             <li>Learn</li>
             <li><a href="#">Project</a></li>
@@ -21,7 +21,7 @@
             <li><a href="#">Blog</a></li>
           </ul>
         </v-flex>
-        <v-flex xs4 sm3 md3 lg3>
+        <v-flex xs12 sm3 md3 lg3>
           <ul>
             <li>Support</li>
             <li><a href="#">Donate</a></li>
@@ -44,6 +44,7 @@ export default {
    color: inherit;
    text-decoration: none;
   }
+
   .meredith {
     height: 120px;
   }
@@ -54,25 +55,42 @@ export default {
 
   ul {
     list-style-type: none;
+    padding: 0;
   }
 
   li {
     color: #D8DADE;
+    margin-bottom: 10px;
   }
+
   li:first-child {
-    margin-bottom: 20px;
     font-family: 'Bitter-Bold';
   }
+
   li:not(:first-child) {
-    margin-bottom: 10px;
     opacity: 0.8;
     
   }
+  
   @media (max-width: 600px) {
+
+    li {
+      text-align: center;
+    }
+
+    li:first-child {
+      font-size: 20px;
+    }
+
+    .meredith {
+      height: 60px;
+    }
+
     img {
       display: block;
       margin: 0 auto;
-      margin-bottom: 40px;
+      margin-bottom: 16px;
     }
+
   }
 </style>
