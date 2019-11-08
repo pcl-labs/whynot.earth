@@ -1,5 +1,5 @@
 <template>
-  <v-container-fluid>
+  <div>
     <div id="parallax-container">
       <div class="layer" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/c_scale,q_auto:low,f_auto/v1562682608/1b_ddwcio.png);"></div>
       <div id="meredith" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/c_scale,q_auto:low,f_auto/v1562682607/meredith_fkpe6f.png); background-repeat: no-repeat; top:90px;">
@@ -72,7 +72,7 @@
         </v-layout>
       </v-container>
     </div>
-  </v-container-fluid>
+  </div>
 </template>
 
 <script>

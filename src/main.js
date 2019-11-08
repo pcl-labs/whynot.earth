@@ -9,7 +9,7 @@ import VueRouter from 'vue-router'
 import Routes from './routes'
 
 Vue.use(Vuetify,{
-  iconfont: 'md',
+  iconfont: 'md'
 })
 
 Vue.use(VueRouter)
