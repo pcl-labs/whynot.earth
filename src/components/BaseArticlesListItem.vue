@@ -27,25 +27,6 @@
               />
             </div>
           </div>
-
-          <transition name="fade" mode="in-out">
-            <!-- video preview (item.image is mp4) -->
-            <div
-              v-if="isHovered && item.image"
-              key="video"
-              class="aspect-ratio-box article-list-item--media-inside position-absolute"
-              :class="imageBoxClass"
-            >
-              <div class="aspect-ratio-box-inside">
-                <video class="article-list-item--video d-block w-100" autoplay muted loop>
-                  <source
-                    :src="transformCloudinaryUrl(item.image, previewTransformations)"
-                    type="video/mp4"
-                  />
-                </video>
-              </div>
-            </div>
-          </transition>
         </div>
 
         <h3
