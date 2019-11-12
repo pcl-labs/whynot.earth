@@ -1,8 +1,8 @@
 <template>
-  <v-app style="background: linear-gradient(115.51deg, #121416 0%, #2B354C 100%);" id="app">
+  <v-app id="app">
     <PageToolbar></PageToolbar>
-      <router-view :key="$route.name + ($route.params.id || '')"/> 
-      <!-- for reloading created while trying to navigate to different ids in the dynamic route -->
+    <router-view :key="$route.name + ($route.params.id || '')"/> 
+    <!-- for reloading created while trying to navigate to different ids in the dynamic route -->
     <Footer style="position:relative;"></Footer>
   </v-app>
 </template>
@@ -28,6 +28,8 @@ export default {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
+    background: linear-gradient(115.51deg, #121416 0%, #2B354C 100%);
+    min-height: 100vh;
   }
   body{
     overflow-x: hidden;

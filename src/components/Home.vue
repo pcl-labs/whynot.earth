@@ -206,7 +206,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .listTitle{
   font-size: 32px;
   color: #D8DADE;
@@ -233,9 +233,6 @@ html {
 }
 ::-webkit-scrollbar { 
     display: none; 
-}
-body {
-  margin: 0;
 }
 #parallax-container {
   height: 930px;
