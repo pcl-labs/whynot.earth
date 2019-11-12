@@ -40,7 +40,7 @@
           ></router-link>
         </h3>
       </div>
-      <p class="description mb-0" v-text="item.content"></p>
+      <p class="description mb-0 font-sans-serif" v-text="item.content"></p>
     </div>
   </article>
 </template>

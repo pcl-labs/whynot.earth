@@ -71,6 +71,7 @@ export default {
 <style scoped>
 .toolbar {
   height: 48px;
+  z-index: 10;
 }
 /* button:active { 
   background-color: #ffdb3a;

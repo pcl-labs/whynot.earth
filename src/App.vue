@@ -24,9 +24,15 @@ export default {
 <style src="./styles/fonts.css"></style>
 
 <style>
+:root {
+  --font-sans-serif: 'Ubuntu', sans-serif;
+  --font-serif: 'Bitter-Regular', serif;
+}
+.font-sans-serif {
+  font-family: var(--font-sans-serif);
+}
   #app {
-    /* font-family: 'Avenir', Helvetica, Arial, sans-serif; */
-    font-family: 'Ubuntu', sans-serif;
+    font-family: var(--font-sans-serif);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
