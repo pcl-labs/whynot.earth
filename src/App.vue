@@ -49,4 +49,54 @@ export default {
   .fade-leave-active {
     opacity: 0
   }
+
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}
+.aspect-ratio-box {
+  height: 0;
+  position: relative;
+}
+.ratio-1-1 {
+  padding-top: 100%;
+}
+.ratio-16-9 {
+  padding-top: 56.25%;
+}
+.ratio-9-16 {
+  padding-top: 177.78%;
+}
+.ratio-3-2 {
+  padding-top: 66.7%;
+}
+.aspect-ratio-box-inside {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+.text-decoration-none {
+  text-decoration: none;
+}
+.stretched-link::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: auto;
+  content: "";
+  background-color: rgba(0,0,0,0);
+}
 </style>

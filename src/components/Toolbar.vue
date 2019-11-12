@@ -20,7 +20,7 @@
         <v-btn flat class="button" to="/search/experiences">
           <h3 class="desktop">Blog</h3>
         </v-btn>
-        <v-btn flat class="button" to="/search/food">
+        <v-btn flat class="button" to="/career">
           <h3 class="desktop">Career</h3>
         </v-btn>
       </v-toolbar-items>
