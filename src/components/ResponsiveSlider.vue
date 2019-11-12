@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="wrapper">
     <h1 class="text-center">{{ label }}</h1>
     <v-layout row>
       <swiper :options="swiperOption">
@@ -39,8 +39,12 @@ export default {
 </script>
 
 <style scoped>
+.wrapper {
+  margin-bottom: 48px;
+}
 h1 {
   margin-bottom: 24px;
+  text-align: center;
 }
 h3 {
   font-size: 20px;
