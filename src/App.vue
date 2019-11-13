@@ -22,27 +22,15 @@ export default {
 </script>
 
 <style src="./styles/fonts.css"></style>
-
 <style>
   #app {
-    /* font-family: 'Avenir', Helvetica, Arial, sans-serif; */
-    font-family: 'Ubuntu', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    overflow-x: hidden;
-  }
-  body{
-    overflow-x: hidden;
-  }
-  html {
-    scroll-behavior: smooth;
+    font-family: Bitter;
+    font-weight: 400;
   }
   
   .fade-enter-active,
   .fade-leave-active {
-    transition-duration: 0.3s;
-    transition-property: opacity;
-    transition-timing-function: ease;
+    transition: opacity 0.3s ease;
   }
 
   .fade-enter,
