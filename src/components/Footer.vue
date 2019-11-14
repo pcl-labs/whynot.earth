@@ -64,7 +64,7 @@ export default {
   }
 
   li:first-child {
-    font-family: 'Bitter-Bold';
+    font-weight: 600;
   }
 
   li:not(:first-child) {

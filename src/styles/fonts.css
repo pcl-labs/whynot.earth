@@ -1,23 +1,27 @@
-* {
-    font-family: 'Bitter-Regular';
-}
-
 @font-face{
-    font-family: 'Bitter-Bold';
-    src: url('../assets/fonts/Bitter-Bold.otf');
-}
-
-@font-face{
-    font-family: 'Bitter-BoldItalic';
-    src: url('../assets/fonts/Bitter-BoldItalic.otf');
-}
-
-@font-face{
-    font-family: 'Bitter-Italic';
-    src: url('../assets/fonts/Bitter-Italic.otf');
-}
-
-@font-face{
-    font-family: 'Bitter-Regular';
+    font-family: 'Bitter';
     src: url('../assets/fonts/Bitter-Regular.otf');
+    font-style: normal;
+    font-weight: 400;
 }
+
+/* @font-face{
+    font-family: 'Bitter';
+    src: url('../assets/fonts/Bitter-Italic.otf');
+    font-style: italic;
+    font-weight: 400;
+} */
+
+@font-face{
+    font-family: 'Bitter';
+    src: url('../assets/fonts/Bitter-Bold.otf');
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* @font-face{
+    font-family: 'Bitter';
+    src: url('../assets/fonts/Bitter-BoldItalic.otf');
+    font-style: italic;
+    font-weight: 600;
+} */

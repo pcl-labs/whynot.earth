@@ -1,6 +1,6 @@
 <template>
   <v-content class="pt-0">
-    <div>
+    <div class="page--career">
       <div class="full-width-banner"></div>
       <div class="custom-container mx-auto">
       <v-container class="white--text is-small">
@@ -76,6 +76,9 @@ export default Vue.extend({
 </script>
 
 <style scoped>
+.page--career {
+  background: linear-gradient(115.51deg, #121416 0%, #2B354C 100%);
+}
 .full-width-banner {
   height: 400px;
   background: #aaa;

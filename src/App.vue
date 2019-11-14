@@ -22,35 +22,21 @@ export default {
 </script>
 
 <style src="./styles/fonts.css"></style>
-
 <style>
-:root {
-  --font-sans-serif: 'Ubuntu', sans-serif;
-  --font-serif: 'Bitter-Regular', serif;
-}
 .font-sans-serif {
-  font-family: var(--font-sans-serif);
+  font-family: 'Ubuntu', sans-serif;
+}
+.font-serif {
+  font-family: Bitter;
 }
   #app {
-    font-family: var(--font-sans-serif);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    overflow-x: hidden;
-    background: linear-gradient(115.51deg, #121416 0%, #2B354C 100%);
-    min-height: 100vh;
-  }
-  body{
-    overflow-x: hidden;
-  }
-  html {
-    scroll-behavior: smooth;
+    font-family: Bitter;
+    font-weight: 400;
   }
   
   .fade-enter-active,
   .fade-leave-active {
-    transition-duration: 0.3s;
-    transition-property: opacity;
-    transition-timing-function: ease;
+    transition: opacity 0.3s ease;
   }
 
   .fade-enter,
