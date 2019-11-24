@@ -5,8 +5,9 @@
       <div id="meredith" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/c_scale,q_auto:low,f_auto/v1562682607/meredith_fkpe6f.png); background-repeat: no-repeat; top:90px;">
         <v-layout justify-center>
           <v-flex xs12 sm6 md6 text-xs-center class="headerText">
-            <h1>Meet Meredith...</h1>
-            <h2>I love cuddles lick the plastic bag, paw your face to wake you up in the morning.</h2>
+            <h1>Meet Meredith</h1>
+              <h2>We do the tech...</h2>
+              <h2>You change the world!</h2>
           </v-flex>
         </v-layout>
       </div>
@@ -17,6 +18,7 @@
       <div class="layer" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/c_scale,q_auto:low,f_auto/v1562682609/6_xbypzd.png);"></div>
       <div class="layer" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/c_scale,q_auto:low,f_auto/v1562682609/7_oljhke.png);"></div>
     </div>
+      
     <div id="content">
       <v-container grid-list-md>
         <ResponsiveSlider :data="landing" label="Our Projects"></ResponsiveSlider>
@@ -24,6 +26,7 @@
         <ResponsiveSlider :data="blog" label="Blog"></ResponsiveSlider>
       </v-container>
     </div>
+      
   </div>
 </template>
 
@@ -32,7 +35,7 @@ const ResponsiveSlider = () => import ('@/components/ResponsiveSlider.vue')
 
 export default {
   components: {
-    ResponsiveSlider
+    ResponsiveSlider,
   },
   data(){
     return {

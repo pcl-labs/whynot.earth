@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <v-container >
+    <v-container text-xs-center>
       <v-layout row justify-center align-center wrap>
         <v-flex xs12 sm3 md3 lg3>
           <img src="../assets/whynotearth.png" class="meredith"/>
@@ -10,7 +10,7 @@
             <li>Connect</li>
             <li><a href="#">Discord</a></li>
             <li><a href="#">Twitch</a></li>
-            <li><a href="#">Github</a></li>
+            <li><a href="https://github.com/whynotearth/whynot.earth/wiki">Github</a></li>
           </ul>
         </v-flex>
         <v-flex xs12 sm3 md3 lg3>
@@ -24,7 +24,7 @@
         <v-flex xs12 sm3 md3 lg3>
           <ul>
             <li>Support</li>
-            <li><a href="#">Donate</a></li>
+            <li><a href="https://www.paypal.me/paulchrisluke">Donate</a></li>
             <li><a href="#">Contribute</a></li>
             <li><a href="#">Partner</a></li>
           </ul>
@@ -36,6 +36,7 @@
 
 <script>
 export default {
+    name: 'page-footer'
 }
 </script>
 
@@ -51,6 +52,7 @@ export default {
 
   footer {
     background-color: #191C21;
+    position: relative;
   }
 
   ul {

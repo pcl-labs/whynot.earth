@@ -3,7 +3,7 @@
     <PageToolbar></PageToolbar>
     <router-view :key="$route.name + ($route.params.id || '')"/> 
     <!-- for reloading created while trying to navigate to different ids in the dynamic route -->
-    <Footer style="position:relative;"></Footer>
+    <page-footer style="position:relative;"></page-footer>
   </v-app>
 </template>
 
