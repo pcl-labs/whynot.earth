@@ -8,25 +8,21 @@
         <v-flex xs12 sm3 md3 lg3>
           <ul>
             <li>Connect</li>
-            <li><a href="#">Discord</a></li>
-            <li><a href="#">Twitch</a></li>
+            <li><a href="https://discord.gg/2ZX8FdC">Discord</a></li>
+            <li><a href="https://twitch.tv/paulchrisluke">Twitch</a></li>
             <li><a href="https://github.com/whynotearth/whynot.earth/wiki">Github</a></li>
-          </ul>
-        </v-flex>
-        <v-flex xs12 sm3 md3 lg3>
-          <ul>
-            <li>Learn</li>
-            <li><a href="#">Project</a></li>
-            <li><a href="#">Career</a></li>
-            <li><a href="#">Blog</a></li>
           </ul>
         </v-flex>
         <v-flex xs12 sm3 md3 lg3>
           <ul>
             <li>Support</li>
             <li><a href="https://www.paypal.me/paulchrisluke">Donate</a></li>
-            <li><a href="#">Contribute</a></li>
-            <li><a href="#">Partner</a></li>
+          </ul>
+        </v-flex>
+        <v-flex xs12 sm3 md3 lg3>
+          <ul>
+            <li>aurelox llc</li>
+            <li><a href="#">(423) 451-6118</a></li>
           </ul>
         </v-flex>
       </v-layout>
