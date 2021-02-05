@@ -10,7 +10,7 @@
         @click.stop="drawer = !drawer"
         style="color:#D8DADE;"
       ></v-toolbar-side-icon>
-      <v-toolbar-items class="hidden-sm-and-down">
+      <!-- <v-toolbar-items class="hidden-sm-and-down">
         <v-btn flat class="button" to="/search/accommodations">
           <h3 class="desktop">Integration</h3>
         </v-btn>
@@ -23,7 +23,7 @@
         <v-btn flat class="button" to="/career">
           <h3 class="desktop">Career</h3>
         </v-btn>
-      </v-toolbar-items>
+      </v-toolbar-items> -->
     </v-toolbar>
     <v-navigation-drawer
       dark

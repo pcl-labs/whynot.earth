@@ -5,9 +5,9 @@
       <div id="meredith" style="background: url(https://res.cloudinary.com/whynotearth/image/upload/c_scale,q_auto:low,f_auto/v1562682607/meredith_fkpe6f.png); background-repeat: no-repeat; top:90px;">
         <v-layout justify-center>
           <v-flex xs12 sm6 md6 text-xs-center class="headerText">
-            <h1>Meet Meredith</h1>
-              <h2>We do the tech...</h2>
-              <h2>You change the world!</h2>
+            <h1>PCL Labs / Aurelox</h1>
+              <h2>Top Rated UPWORK Agency</h2>
+              <h2>Marketing, Webapps, and Data</h2>
           </v-flex>
         </v-layout>
       </div>
@@ -20,57 +20,76 @@
     </div>
       
     <div id="content">
-      <v-container grid-list-md>
-        <ResponsiveSlider :data="landing" label="Our Projects"></ResponsiveSlider>
+        <!-- <ResponsiveSlider :data="landing" label="Our Projects"></ResponsiveSlider>
         <ResponsiveSlider :data="career" label="Career"></ResponsiveSlider>
-        <ResponsiveSlider :data="blog" label="Blog"></ResponsiveSlider>
+        <ResponsiveSlider :data="blog" label="Blog"></ResponsiveSlider> -->
       </v-container>
     </div>
+    <v-content>
+    <!--- pick-up screen height so we can center vertically -->
+    <v-container fill-height>
+        <!--- vertical and horizontal alignment -->
+        <v-layout align-center justify-center>
+            <v-flex xs6>
+            <!--- v-flex is centered now, but we need to center button inside v-flex -->
+                <div class="text-xs-center">
+                    <v-btn @click="gotoUpwork()" >
+              Contact
+            </v-btn>
+                </div>
+            </v-flex>
+        </v-layout>
+    </v-container>
+</v-content>
       
   </div>
 </template>
 
+
 <script>
-const ResponsiveSlider = () => import ('@/components/ResponsiveSlider.vue')
 
-export default {
-  components: {
-    ResponsiveSlider,
-  },
-  data(){
-    return {
-      landing: {},
-      career: {},
-      blog: {}
-    }
-  },
-  mounted(){
-    this.$http.get('https://stagingapi.whynot.earth/api/v0/pages/slug/whynotearth/categories/by-name/landing')
-      .then(landingResult => {
-        this.landing = landingResult.data
-        return this.$http.get('https://stagingapi.whynot.earth/api/v0/pages/slug/whynotearth/categories/by-name/career')
-      })
-      .then(careerResult => {
-        this.career = careerResult.data
-        return this.$http.get('https://stagingapi.whynot.earth/api/v0/pages/slug/whynotearth/categories/by-name/blog')
-      })
-      .then(blogResults => {
-        this.blog = blogResults.data
-      })
+export default { methods:{ gotoUpwork(){ window.location="https://www.upwork.com/ag/pcllabs/" } } }
+
+// const ResponsiveSlider = () => import ('@/components/ResponsiveSlider.vue')
+
+// export default {
+//   components: {
+//     ResponsiveSlider,
+//   },
+//   data(){
+//     return {
+//       landing: {},
+//       career: {},
+//       blog: {}
+//     }
+//   },
+//   mounted(){
+//     this.$http.get('https://stagingapi.whynot.earth/api/v0/pages/slug/whynotearth/categories/by-name/landing')
+//       .then(landingResult => {
+//         this.landing = landingResult.data
+//         return this.$http.get('https://stagingapi.whynot.earth/api/v0/pages/slug/whynotearth/categories/by-name/career')
+//       })
+//       .then(careerResult => {
+//         this.career = careerResult.data
+//         return this.$http.get('https://stagingapi.whynot.earth/api/v0/pages/slug/whynotearth/categories/by-name/blog')
+//       })
+//       .then(blogResults => {
+//         this.blog = blogResults.data
+//       })
 
 
-    // Parallax
-    window.addEventListener('scroll', () => {
-      let parent =  document.getElementById('parallax-container');
-      let children = document.getElementsByClassName('layer');
-      let meredith = document.getElementById('meredith');
-      meredith.style.transform = 'translateY(-' + (window.pageYOffset*0.3) + 'px)';
-      for (let i = 0; i < children.length; i++) {
-        children[i].style.transform = 'translateY(-' + (window.pageYOffset * i / children.length) + 'px)';
-      }
-    }, false)
-  }
-}
+//     // Parallax
+//     window.addEventListener('scroll', () => {
+//       let parent =  document.getElementById('parallax-container');
+//       let children = document.getElementsByClassName('layer');
+//       let meredith = document.getElementById('meredith');
+//       meredith.style.transform = 'translateY(-' + (window.pageYOffset*0.3) + 'px)';
+//       for (let i = 0; i < children.length; i++) {
+//         children[i].style.transform = 'translateY(-' + (window.pageYOffset * i / children.length) + 'px)';
+//       }
+//     }, false)
+//   }
+// }
 </script>
 
 <style scoped>
